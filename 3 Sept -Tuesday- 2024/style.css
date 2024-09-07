@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header section start from here  */
+header {
+    background-color: rgb(136, 136, 136);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 15px 0;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+/* header section ends here */
+
+
+/* .story-writer-copyright start from here  */
+.story-writer-copyright>h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.story-writer-copyright>p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+span {
+    color: tomato;
+    font-weight: 900;
+}
+
+/* .story-writer-copyright ends here */
+
+
+
+/* .programming-lang start from here  */
+.programming-lang {
+    padding: 30px;
+    text-align: justify;
+}
+
+.list-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+    color: orangered;
+}
+
+/* .programming-lang ends here */
+
+/* table section start from here  */
+.lang-table {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+table {
+    margin-top: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+/* table section ends here */
+
+
+/* form section start from here  */
+form {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+form>div {
+
+    width: 100%;
+    padding: 10px;
+}
+
+form>div>input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    outline: none;
+}
+
+.form-button > button{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+/* form section ends  */

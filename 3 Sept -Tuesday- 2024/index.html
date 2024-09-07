@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a blog site ( Try to include Table and Form)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header section start from here  -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends here -->
+
+
+    <!-- hero section start from here  -->
+    <section class="hero-section">
+
+
+        <!-- hero-section image start from here  -->
+        <div class="hero-section-image">
+            <img src="./laptop-coding-terminal.avif" alt="Hero Section Image" width="100%">
+        </div>
+        <div class="story-writer-copyright">
+            <h1>Best <span>Programming Languages</span> to Learn in 2024</h1>
+            <p>By Shohag Kumar</p>
+        </div>
+        <!-- hero-section image ends here -->
+
+
+
+
+
+        <!-- Programming Section start from here  -->
+        <div class="programming-lang">
+            <article>
+                <ol>
+                    <li class="list-heading">JavaScript</li>
+                    <p>JavaScript is essential to front-end web development. A majority of the web’s most popular
+                        sites,
+                        from Facebook and Twitter to Gmail and YouTube, rely on JavaScript to create interactive web
+                        pages
+                        and dynamically display content to users. Due to its flexibility, JavaScript has many
+                        possible
+                        applications. Although it’s primarily a front-end language run on the browser, it can be
+                        used on the
+                        server-side through Node.js to build scalable network applications. Node.js is compatible
+                        with
+                        Linux, SunOS, Mac OS X, and Windows. Through the use of specialized frameworks, like React
+                        Mobile
+                        and Electron, JavaScript can also be used for mobile app and desktop software development.
+                        Because
+                        JavaScript has a forgiving, flexible syntax and works across all major browsers, it is also
+                        one of
+                        the friendliest programming languages for beginners. At Fullstack Academy, we chose to focus
+                        our
+                        curriculum on Javascript back in 2013. Today, as a leader in the tech education space,
+                        Fullstack
+                        Academy continues to primarily teach full stack JavaScript across all our coding bootcamps
+                        for
+                        2024—including our Software Engineering Immersive and Grace Hopper Program for women and
+                        nonbinary
+                        coders.</p>
+                    <li class="list-heading">Python</li>
+                    <p>Python is perhaps the most user-friendly programming language of any on this list. It’s often
+                        said
+                        that Python’s syntax is clear, intuitive, and almost English-like, which makes it a popular
+                        choice
+                        for beginners. Python has a variety of applications that make it a versatile, powerful
+                        option when
+                        choosing the best programming language for your use case. If you’re interested in back-end
+                        web
+                        development, for example, then the open-source Django framework, written in Python, is
+                        popular, easy
+                        to learn, and feature-rich. Django has been used in the development of some popular sites
+                        like
+                        Mozilla, Instagram, and Spotify. Python also has packages such as NumPy and SciPy that are
+                        commonly
+                        used in the fields of scientific computing, mathematics, and engineering. Other Python
+                        libraries
+                        such as TensorFlow, PyTorch, scikit-learn, and OpenCV are used to build programs in data
+                        science,
+                        machine learning, image processing, and computer vision. Python's science and data
+                        applications make
+                        it a great choice for the academically inclined.</p>
+                    <li class="list-heading">SQL</li>
+                    <p>Along with Python, SQL programming is essential to efficiently using data in web
+                        applications. Unlike
+                        other coding languages on our list, though, SQL specifically enables the storage,
+                        extraction, and
+                        manipulation of data within an existing database. As the primary database programming
+                        language, SQL
+                        has its own markup that must be learned to query a database effectively. Programmers
+                        interested in
+                        working with apps that utilize intensive-use databases like social media platforms, payment
+                        processors, and music libraries should consider learning SQL. For prospective data
+                        professionals,
+                        SQL familiarity is usually a must-have skill for roles like database administrator, data
+                        analyst,
+                        and QA engineer.
+                    </p>
+                    <li class="list-heading">TypeScript</li>
+                    <p>Over the last several years, TypeScript has grown in popularity, with close to 40% of
+                        developers
+                        using the programming language, according to Stack Overflow's 2023 Developer's Survey.
+                        According to
+                        the TypeScript website, several well-known companies are utilizing the programming language,
+                        including Google, Airbnb, and Slack. Once you learn JavaScript, TypeScript is simple to
+                        learn. The
+                        open-source programming language builds on JavaScript and works in any environment that runs
+                        JavaScript. One of the biggest benefits of TypeScript is its ability to help speed up
+                        development by
+                        finding errors before the JavaScript code is even run.
+                    </p>
+                </ol>
+            </article>
+        </div>
+        <!-- Programming Section ends here -->
+
+
+        <!-- language tabel section start from here  -->
+
+        <div class="lang-table">
+            <h2 style="text-align: center; color: tomato;">Table</h2>
+            <table>
+                <thead>
+                    <th>Number</th>
+                    <th>Languages</th>
+                    <th>First Appeared</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>JavaScript</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Python</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SQL</td>
+                        <td>1974</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>TypeScript</td>
+                        <td>2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- language tabel section ends here -->
+
+        <!-- form section start from here  -->
+        <h2 style="text-align: center; color: tomato; margin-top: 50px;">Contact Us</h2>
+        <form>
+            <div class="first-Name">
+                <label for="firstName">First Name:</label><br>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+            <div class="last-Name">
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <div class="email-section">
+                <label for="email">Last Name:</label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="password-section">
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <!-- form section ends here -->
+
+    </section>
+    <!-- hero section ends here  -->
+
+</body>
+
+</html>
