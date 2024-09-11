@@ -1,3 +1,3 @@
 MERN Stack Web Development All Task Live Link here...
 1. Create a blog site ( Try to include Table and Form) : https://merntask01byshohag.netlify.app/ </br>
-2. Create a site Name "Bantu Warga" : https://merntask02byshohag.netlify.app/ </br>
+2. Create a site Name "Bantu Warga" : https://day6challengebyshohag.netlify.app/
